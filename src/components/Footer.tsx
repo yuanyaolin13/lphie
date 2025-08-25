@@ -1,0 +1,9 @@
+function Footer() {
+    return (
+        <div className='text-xs px-3 py-2 md:py-0 md:text-sm font-light text-gray-200'>
+            <p>© 2025 LAMBDA PHI EPSILON INTERNATIONAL FRATERNITY, INC. THE UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL</p>
+        </div>
+    );
+}
+
+export default Footer;
