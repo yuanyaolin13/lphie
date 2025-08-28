@@ -1,9 +1,6 @@
 import banner from '../assets/scrollingBanner.png'
-import dragonBackground from '../assets/dragon.png'
 import lambdaPhoto1 from '../assets/phiReveal.png'
 import lambdaPhoto2 from '../assets/lambdaPhoto2.png'
-import communityPhoto from '../assets/lambdaskdphiLunch.png'
-import leadershipPhoto from '../assets/leadershipPhoto.png'
 import backgroundTexture from '../assets/backgroundTexture.png'
 import contactUsTexture from '../assets/contactUsTexture.png'
 
@@ -39,7 +36,7 @@ function Home() {
                 </div>
             </div>
             <div className="relative w-full h-full flex bg-white">
-                <div className="flex flex-col md:flex-row md:items-start mx-6 my-8 md:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
+                <div className="flex flex-col md:flex-row md:items-start m-6 md:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
                     <div className="md:-rotate-90 md:mt-64 md:text-8xl text-5xl font-extrabold text-blue-700 flex flex-col justify-center">
                         <div>
                             WHO ARE
@@ -48,7 +45,7 @@ function Home() {
                             WE?
                         </div>
                     </div>
-                    <div className="flex-1 md:mt-20 md:px-24 md:p-12 relative mt-6 justify-center ">
+                    <div className="flex-1 md:px-24 md:p-12 relative mt-6 justify-center ">
                         <div className='relative flex justify-center'>
                             <div className="absolute inset-0 bg-[url(./assets/officialKanji.png)] bg-no-repeat bg-center bg-contain opacity-10"></div>
                             <div className="text-gray-800 text-md md:text-lg">
@@ -110,7 +107,7 @@ function Home() {
             </div>
             <div className="relative">
                 <div className="absolute inset-0">
-                    <div className="bg-[url(./assets/graintexture.png)] bg-center bg-fixed h-screen w-full opacity-50">
+                    <div className="bg-[url(./assets/graintexture.png)] bg-center bg-fixed h-full w-full opacity-50">
                     </div>
                 </div>
                 <div className="relative">
@@ -119,44 +116,44 @@ function Home() {
                     </svg>
                 </div>
             </div>
-            <div className="relative h-full flex flex-col bg-white -mt-20">
-                <div className="relative inset-0">
-                    <img
-                        src={dragonBackground}
-                        alt={'Dragon Background'}
-                        className="absolute h-180 md:h-256 md:-left-96 md:-top-108 -left-40 opacity-20 select-none z-0"
-                    />
-                </div>
-                <div className="md:text-8xl text-4xl font-extrabold text-blue-700 flex flex-col justify-center z-10 md:px-8 md:-mt-72 bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
-                    <div className="flex flex-col w-full md:w-1/2 md:ml-auto md:mx-12">
-                        <div className="text-center">
-                            COMMUNITY
-                        </div>
-                        <img
-                            src={communityPhoto}
-                            alt={"Lambdas X AKDPhi Lunch"}
-                            className={'object-contain object-center mx-auto px-8 w-128 md:w-full md:max-w-[640px] md:max-h-[450px]'}
-                        />
-                        <div className="text-sm font-light text-gray-800 italic">
-                            Lambdas X AKDPhi
-                        </div>
-                    </div>
-                    <div className="flex flex-col mx-auto md:mx-12 md:mr-auto mt-6 md:mt-0">
-                        <div className="text-center">
-                            LEADERSHIP
-                        </div>
-                        <img
-                            src={leadershipPhoto}
-                            alt={"Leadership Photo"}
-                            className={'object-cover object-center mx-auto px-8 w-128 md:max-w-[640px] mnd:max-h-[320px]'}
-                        />
-                        <div className="text-sm font-light text-gray-800 italic mb-30 md:mb-4">
-                            Spring '25 Executive Board
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="relative h-full bg-white flex justify-center">
+            {/*<div className="relative h-full flex flex-col bg-white -mt-20">*/}
+            {/*    <div className="relative inset-0">*/}
+            {/*        <img*/}
+            {/*            src={dragonBackground}*/}
+            {/*            alt={'Dragon Background'}*/}
+            {/*            className="absolute h-180 md:h-256 md:-left-96 md:-top-108 -left-40 opacity-20 select-none z-0"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*    <div className="md:text-8xl text-4xl font-extrabold text-blue-700 flex flex-col justify-center z-10 md:px-8 md:-mt-72 bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">*/}
+            {/*        <div className="flex flex-col w-full md:w-1/2 md:ml-auto md:mx-12">*/}
+            {/*            <div className="text-center">*/}
+            {/*                COMMUNITY*/}
+            {/*            </div>*/}
+            {/*            <img*/}
+            {/*                src={communityPhoto}*/}
+            {/*                alt={"Lambdas X AKDPhi Lunch"}*/}
+            {/*                className={'object-contain object-center mx-auto px-8 w-128 md:w-full md:max-w-[640px] md:max-h-[450px]'}*/}
+            {/*            />*/}
+            {/*            <div className="text-sm font-light text-gray-800 italic">*/}
+            {/*                Lambdas X aKDPhi*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*        <div className="flex flex-col mx-auto md:mx-12 md:mr-auto mt-6 md:mt-0">*/}
+            {/*            <div className="text-center">*/}
+            {/*                LEADERSHIP*/}
+            {/*            </div>*/}
+            {/*            <img*/}
+            {/*                src={leadershipPhoto}*/}
+            {/*                alt={"Leadership Photo"}*/}
+            {/*                className={'object-cover object-center mx-auto px-8 w-128 md:max-w-[640px] mnd:max-h-[320px]'}*/}
+            {/*            />*/}
+            {/*            <div className="text-sm font-light text-gray-800 italic mb-30 md:mb-4">*/}
+            {/*                Spring '25 Executive Board*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+            <div className="relative h-full bg-white flex justify-center md:-mt-96 -mt-24 pb-20">
                 <img
                     src={backgroundTexture}
                     alt={'background texture'}
@@ -167,18 +164,18 @@ function Home() {
                     alt={'contact Us texture'}
                     className={'absolute bottom-0 opacity-20 z-0 pointer-events-none select-none'}
                 />
-                <div className='flex flex-col w-full h-screen'>
-                    <div className="md:text-8xl text-5xl font-extrabold text-black md:border-t-2 md:border-[rgba(58,69,69,0.25)] mt-24 md:-mb-40 md:mx-64">
+                <div className='flex flex-col w-full h-full pt-24 md:h-screen'>
+                    <div className="md:text-8xl text-5xl font-extrabold text-blue-700 md:mx-64">
                         CONTACT US
                     </div>
-                    <div className=" flex flex-row mr-auto h-full w-fit md:mx-16 px-4 pt-8">
+                    <div className="flex flex-row mr-auto h-full w-fit md:mx-16 px-4 pt-8">
                         <div className="flex flex-col my-4 md:my-auto">
                             <div className="text-black h-fit font-bold md:mx-8">
                                 If you have any questions, please feel free to contact us at: email@unc.edu
                                 <br/>
                                 Interested in Rush? Contact one of our rush chairs or visit our rush page FAQ!
                             </div>
-                            <div className="text-black h-full font-bold mt-16 md:mx-8">
+                            <div className="text-black md:h-full font-bold mt-16 md:mx-8">
                                 Follow us on our various social media platforms and get updated!
                                 <br/>
                                 <ul className='flex flex-row justify-center space-x-6 mt-4'>
