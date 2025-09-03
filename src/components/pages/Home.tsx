@@ -1,13 +1,13 @@
-import banner from '../assets/scrollingBanner.png'
-import lambdaPhoto1 from '../assets/phiReveal.png'
-import lambdaPhoto2 from '../assets/lambdaPhoto2.png'
-import backgroundTexture from '../assets/backgroundTexture.png'
-import contactUsTexture from '../assets/contactUsTexture.png'
+import banner from '../../assets/scrollingBanner.png'
+import lambdaPhoto1 from '../../assets/phiReveal.png'
+import lambdaPhoto2 from '../../assets/lambdaPhoto2.png'
+import backgroundTexture from '../../assets/backgroundtexture.png'
+import contactUsTexture from '../../assets/contactUsTexture.png'
 
 function Home() {
     return (
         <div className="w-full flex flex-col">
-            <div className="bg-[url(./assets/smoke2.png)] h-screen bg-cover bg-center bg-no-repeat">
+            <article className="bg-[url(./assets/smoke2.png)] h-screen bg-cover bg-center bg-no-repeat">
                 <div className="h-screen w-full bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center">
                     <div className="text-center md:text-left md:text-lg italic mt-56 md:mt-48 md:ml-8">
                         The University of North Carolina at Chapel Hill
@@ -34,8 +34,8 @@ function Home() {
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div className="relative w-full h-full flex bg-white">
+            </article>
+            <article className="relative w-full h-full flex bg-white">
                 <div className="flex flex-col md:flex-row md:items-start m-6 md:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
                     <div className="md:-rotate-90 md:mt-64 md:text-8xl text-5xl font-extrabold text-blue-700 flex flex-col justify-center">
                         <div>
@@ -49,11 +49,10 @@ function Home() {
                         <div className='relative flex justify-center'>
                             <div className="absolute inset-0 bg-[url(./assets/officialKanji.png)] bg-no-repeat bg-center bg-contain opacity-10"></div>
                             <div className="text-gray-800 text-md md:text-lg">
-                                <span className='font-bold'>Lambda Phi Epsilon</span> is an Asian-interest, non-Asian-exclusive fraternity that aims to make leaders among men.
-                                The UNC Chapel Hill Associate chapter was founded in the Spring of 2013 by 18 young men. We are a diverse group dedicated to increasing public awareness
-                                about modern Asian and Asian-American issues through philanthropic activities and services such as hosting bone marrow drives on behalf
-                                of Be the Match, a subsidiary of the National Marrow Donor Program. We hope to develop young men into future leaders while making a positive and lasting
-                                impact on society.
+                                <span className='font-bold'>Lambda Phi Epsilon</span> at UNC Chapel Hill is an Asian-interest, non-Asian-exclusive fraternity founded in
+                                the Spring of 2013 by 18 young men. We strive to represent the Asian-American community in
+                                exemplifying our core values of authenticity, courageous leadership, cultural heritage, love, and
+                                wisdom.
                             </div>
                         </div>
                         <div className="relative flex justify-center mt-6 md:mt-12">
@@ -65,8 +64,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="relative h-full">
+            </article>
+            <article className="relative h-full">
                 <div className="absolute inset-0">
                     <div className="bg-[url(./assets/graintexture.png)] bg-center bg-fixed h-full w-full opacity-50">
                     </div>
@@ -104,8 +103,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="relative">
+            </article>
+            <article className="relative">
                 <div className="absolute inset-0">
                     <div className="bg-[url(./assets/graintexture.png)] bg-center bg-fixed h-full w-full opacity-50">
                     </div>
@@ -115,45 +114,8 @@ function Home() {
                         <path d="M1443 657.273V0.381409L1397.96 55.1293L1349.59 44.8945L1317.01 69.1004L1273.15 88.2703L1259.61 119.381L1238.22 141.8L1191.02 134.327L1167.96 170.148L1133.62 190.699L1097.02 183.226L1040.2 227.901L962.687 215.798L939.039 249.346L903.519 254.463L863.582 232.125L825.412 227.008L812.46 194.435L752.311 160.401L714.533 174.372L680.877 172.504L657.72 122.224L611.602 108.252L559.302 118.975L509.259 78.9291L476.683 70.9687L412.51 81.6908L364.135 115.725L321.354 102.16L273.568 67.7195L225.781 82.1782L190.359 77.5482L175.15 54.2357L149.834 30.9232H125.107L87.9183 16.952L60.9344 33.7662L31.6937 22.5568L0 0.381409V657.273L1443 657.273Z" fill="#FFFFFF"/>
                     </svg>
                 </div>
-            </div>
-            {/*<div className="relative h-full flex flex-col bg-white -mt-20">*/}
-            {/*    <div className="relative inset-0">*/}
-            {/*        <img*/}
-            {/*            src={dragonBackground}*/}
-            {/*            alt={'Dragon Background'}*/}
-            {/*            className="absolute h-180 md:h-256 md:-left-96 md:-top-108 -left-40 opacity-20 select-none z-0"*/}
-            {/*        />*/}
-            {/*    </div>*/}
-            {/*    <div className="md:text-8xl text-4xl font-extrabold text-blue-700 flex flex-col justify-center z-10 md:px-8 md:-mt-72 bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">*/}
-            {/*        <div className="flex flex-col w-full md:w-1/2 md:ml-auto md:mx-12">*/}
-            {/*            <div className="text-center">*/}
-            {/*                COMMUNITY*/}
-            {/*            </div>*/}
-            {/*            <img*/}
-            {/*                src={communityPhoto}*/}
-            {/*                alt={"Lambdas X AKDPhi Lunch"}*/}
-            {/*                className={'object-contain object-center mx-auto px-8 w-128 md:w-full md:max-w-[640px] md:max-h-[450px]'}*/}
-            {/*            />*/}
-            {/*            <div className="text-sm font-light text-gray-800 italic">*/}
-            {/*                Lambdas X aKDPhi*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*        <div className="flex flex-col mx-auto md:mx-12 md:mr-auto mt-6 md:mt-0">*/}
-            {/*            <div className="text-center">*/}
-            {/*                LEADERSHIP*/}
-            {/*            </div>*/}
-            {/*            <img*/}
-            {/*                src={leadershipPhoto}*/}
-            {/*                alt={"Leadership Photo"}*/}
-            {/*                className={'object-cover object-center mx-auto px-8 w-128 md:max-w-[640px] mnd:max-h-[320px]'}*/}
-            {/*            />*/}
-            {/*            <div className="text-sm font-light text-gray-800 italic mb-30 md:mb-4">*/}
-            {/*                Spring '25 Executive Board*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            <div className="relative h-full bg-white flex justify-center md:-mt-96 -mt-24 pb-20">
+            </article>
+            <article className="relative h-full bg-white flex justify-center md:-mt-96 -mt-24 pb-20">
                 <img
                     src={backgroundTexture}
                     alt={'background texture'}
@@ -233,7 +195,7 @@ function Home() {
                         />
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
     );
 }

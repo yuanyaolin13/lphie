@@ -14,8 +14,59 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* For Infinite Scroll Animations */
 @keyframes infinite-scroll {
     0%   { transform: translateX(0); }
     100% { transform: translateX(calc(-50% - 20px)); }
 }
 .animate-infinite-scroll { animation: infinite-scroll 40s linear infinite; }
+
+/* For Numbers Counting Up Animations */
+@property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+}
+@keyframes brothersCounter {
+    from {
+        --num: 0;
+    }
+    to {
+        --num: 10;
+    }
+}
+@keyframes chapterCounter {
+    from {
+        --num: 0;
+    }
+    to {
+        --num: 100;
+    }
+}
+@keyframes dollarsRaisedCounter {
+    from {
+        --num: 0;
+    }
+    to {
+        --num: 1500;
+    }
+}
+
+/* For ScrollToTopButton */
+@keyframes fade-in-up {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.25s ease-out forwards;
+}
+
+@keyframes fade-out-down {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(20px); }
+}
+
+.animate-fade-out-down {
+    animation: fade-out-down 0.25s ease-out forwards;
+}

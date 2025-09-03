@@ -5,8 +5,10 @@ import {createBrowserRouter, RouterProvider} from "react-router";
 import './index.css'
 
 import App from './App.tsx'
-import Home from "./components/Home.tsx";
-import WIP from './components/WIP.tsx';
+import Home from "./components/pages/Home.tsx";
+import Active from "./components/pages/Active.tsx";
+import Chapter from "./components/pages/Chapter.tsx";
+import Rush from "./components/pages/Rush.tsx";
 
 const router = createBrowserRouter([
     {
@@ -20,15 +22,15 @@ const router = createBrowserRouter([
             },
             {
                 path: '/active',
-                element: <WIP />
+                element: <Active />
             },
             {
                 path: '/chapter',
-                element: <WIP />
+                element: <Chapter />
             },
             {
                 path: '/rush',
-                element: <WIP />
+                element: <Rush />
             }
         ]
     }

@@ -1,9 +1,12 @@
 // import {Link, useLocation} from 'react-router-dom';
 
 import navbarLogo from '../assets/navbarLogoInvert.png'
-import {Link} from "react-router";
+import {Link, useLocation} from "react-router";
 
 function NavBar() {
+
+    let location = useLocation();
+
     return (
         <>
             <div className="absolute z-20 w-full flex justify-center bg-black ">
@@ -15,16 +18,16 @@ function NavBar() {
                         />
                     </Link>
                     <ol className="ml-auto hidden md:flex justify-center p-4 space-x-12">
-                        <Link to="/" className="list-item">
+                        <Link to="/" className={location.pathname === "/" ? " text-blue-700 " : " duration-500 hover:text-blue-700"}>
                             home
                         </Link>
-                        <Link to="/active" className="list-item">
+                        <Link to="/active" className={location.pathname === "/active" ? " text-blue-700 " : " duration-500  hover:text-blue-700"}>
                             active house
                         </Link>
-                        <Link to="/chapter" className="list-item">
+                        <Link to="/chapter" className={location.pathname === "/chapter" ? " text-blue-700 " : " duration-500  hover:text-blue-700"}>
                             chapter roster
                         </Link>
-                        <Link to="/rush" className="list-item">
+                        <Link to="/rush" className={location.pathname === "/rush" ? " text-blue-700 " : "duration-500 hover:text-blue-700"}>
                             rush
                         </Link>
                     </ol>
