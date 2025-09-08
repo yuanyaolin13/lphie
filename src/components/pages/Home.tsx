@@ -3,24 +3,30 @@ import lambdaPhoto1 from '../../assets/phiReveal.png'
 import lambdaPhoto2 from '../../assets/lambdaPhoto2.png'
 import backgroundTexture from '../../assets/backgroundtexture.png'
 import contactUsTexture from '../../assets/contactUsTexture.png'
+import dragon from "../../assets/dragon.png";
 
 function Home() {
     return (
         <div className="w-full flex flex-col">
             <article className="bg-[url(./assets/smoke2.png)] h-screen bg-cover bg-center bg-no-repeat">
-                <div className="h-screen w-full bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center">
-                    <div className="text-center md:text-left md:text-lg italic mt-56 md:mt-48 md:ml-8">
+                <div className="h-full w-full bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center">
+                    <div className="text-center lg:text-left lg:text-lg italic mt-64 lg:mt-48 lg:ml-8">
                         The University of North Carolina at Chapel Hill
                     </div>
-                    <div className="text-center md:text-left text-6xl md:text-[13rem] font-extrabold italic md:-mt-6">
+                    <div className="text-center lg:text-left text-6xl lg:text-[13rem] font-extrabold italic lg:-mt-6">
                         LAMBDA PHI
                     </div>
-                    <div className="text-center md:text-right text-6xl md:text-[13rem] -mt-3 font-extrabold italic md:ml-auto md:-mt-12">
+                    <div className="text-center lg:text-right text-6xl lg:text-[13rem] -mt-3 font-extrabold italic lg:ml-auto lg:-mt-12">
                         EPSILON
                     </div>
-                    <div className='ml-auto md:-mt-4 mr-6 -mt-2'>est. 2013</div>
+                    <div className='ml-auto lg:-mt-4 mr-6 -mt-2'>est. 2013</div>
 
                     <div className="w-full overflow-hidden mt-auto bg-white p-2">
+                        <img
+                            src={dragon}
+                            alt={'dragon'}
+                            className="absolute top-20 right-0 h-128 lg:h-196 -z-20 opacity-25"
+                        />
                         <ul className="flex w-max animate-infinite-scroll">
                             {[...Array(6)].map((_, i) => (
                                 <li key={i} className="">
@@ -36,8 +42,8 @@ function Home() {
                 </div>
             </article>
             <article className="relative w-full h-full flex bg-white">
-                <div className="flex flex-col md:flex-row md:items-start m-6 md:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
-                    <div className="md:-rotate-90 md:mt-64 md:text-8xl text-5xl font-extrabold text-blue-700 flex flex-col justify-center">
+                <div className="flex flex-col lg:flex-row lg:items-start m-6 lg:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
+                    <div className="lg:-rotate-90 lg:mt-64 lg:text-8xl text-5xl font-extrabold text-blue-700 flex flex-col justify-center">
                         <div>
                             WHO ARE
                         </div>
@@ -45,19 +51,19 @@ function Home() {
                             WE?
                         </div>
                     </div>
-                    <div className="flex-1 md:px-24 md:p-12 relative mt-6 justify-center ">
+                    <div className="flex-1 lg:px-24 lg:p-12 relative mt-6 justify-center ">
                         <div className='relative flex justify-center'>
                             <div className="absolute inset-0 bg-[url(./assets/officialKanji.png)] bg-no-repeat bg-center bg-contain opacity-10"></div>
-                            <div className="text-gray-800 text-md md:text-lg">
+                            <div className="text-gray-800 text-md lg:text-lg">
                                 <span className='font-bold'>Lambda Phi Epsilon</span> at UNC Chapel Hill is an Asian-interest, non-Asian-exclusive fraternity founded in
                                 the Spring of 2013 by 18 young men. We strive to represent the Asian-American community in
                                 exemplifying our core values of authenticity, courageous leadership, cultural heritage, love, and
                                 wisdom.
                             </div>
                         </div>
-                        <div className="relative flex justify-center mt-6 md:mt-12">
+                        <div className="relative flex justify-center mt-6 lg:mt-12">
                             <img
-                                className="md:h-108 w-full md:max-w-full"
+                                className="lg:h-108 w-full lg:max-w-full"
                                 src={lambdaPhoto1}
                                 alt={`lambda photo 1`}
                             />
@@ -78,22 +84,22 @@ function Home() {
                         />
                     </svg>
                 </div>
-                <div className='flex flex-col md:mx-64 md:space-y-20 my-4 px-8 md:mt-24'>
-                    <div className='flex flex-col md:flex-row items-center'>
-                        <div className='flex flex-col w-full md:w-1/2'>
-                            <div className='text-4xl md:text-7xl font-bold pb-4'> VISION </div>
+                <div className='flex flex-col lg:mx-64 lg:space-y-20 my-4 px-8 lg:mt-24'>
+                    <div className='flex flex-col lg:flex-row items-center'>
+                        <div className='flex flex-col w-full lg:w-1/2'>
+                            <div className='text-4xl lg:text-7xl font-bold pb-4'> VISION </div>
                             <div className='px-8'>A world where Lambda men live fulfilling lives and contribute through the pursuit of
                                 their noble purpose.</div>
                         </div>
-                        <div className='flex flex-col w-full md:w-1/2 mt-8 md:mt-0'>
-                            <div className='text-4xl md:text-7xl font-bold pb-4'> OUR MISSION </div>
+                        <div className='flex flex-col w-full lg:w-1/2 mt-8 lg:mt-0'>
+                            <div className='text-4xl lg:text-7xl font-bold pb-4'> OUR MISSION </div>
                             <div className='px-8'>To guide men on a lifelong discovery of authenticity and personal growth.</div>
                         </div>
                     </div>
                     <div className="items-center mt-8">
                         <div className='ml-auto flex flex-col'>
-                            <div className='text-4xl md:text-7xl font-bold pb-4'> CORE VALUES </div>
-                            <ul className='flex flex-col md:flex-row justify-center md:space-x-10'>
+                            <div className='text-4xl lg:text-7xl font-bold pb-4'> CORE VALUES </div>
+                            <ul className='flex flex-col lg:flex-row justify-center lg:space-x-10'>
                                 <li>Authenticity</li>
                                 <li>Courageous Leadership</li>
                                 <li>Cultural Heritage</li>
@@ -115,29 +121,29 @@ function Home() {
                     </svg>
                 </div>
             </article>
-            <article className="relative h-full bg-white flex justify-center md:-mt-96 -mt-24 pb-20">
+            <article className="relative h-full bg-white flex justify-center lg:-mt-96 -mt-24 pb-20">
                 <img
                     src={backgroundTexture}
                     alt={'background texture'}
-                    className={'absolute right-0 bottom-0 w-2/3 md:w-1/3 z-0 pointer-events-none select-none'}
+                    className={'absolute right-0 bottom-0 w-2/3 lg:w-1/3 z-0 pointer-events-none select-none'}
                 />
                 <img
                     src={contactUsTexture}
                     alt={'contact Us texture'}
                     className={'absolute bottom-0 opacity-20 z-0 pointer-events-none select-none'}
                 />
-                <div className='flex flex-col w-full h-full pt-24 md:h-screen'>
-                    <div className="md:text-8xl text-5xl font-extrabold text-blue-700 md:mx-64">
+                <div className='flex flex-col w-full h-full pt-24 lg:h-screen'>
+                    <div className="lg:text-8xl text-5xl font-extrabold text-blue-700 lg:mx-64">
                         CONTACT US
                     </div>
-                    <div className="flex flex-row mr-auto h-full w-fit md:mx-16 px-4 pt-8">
-                        <div className="flex flex-col my-4 md:my-auto">
-                            <div className="text-black h-fit font-bold md:mx-8">
-                                If you have any questions, please feel free to contact us at: email@unc.edu
+                    <div className="flex flex-row mr-auto h-full w-fit lg:mr-24 px-4 pt-8">
+                        <div className="flex flex-col my-4 lg:my-auto">
+                            <div className="text-black text-lg h-fit font-bold lg:mx-12">
+                                If you have any questions, please feel free to contact us at: unclambdas@gmail.com
                                 <br/>
                                 Interested in Rush? Contact one of our rush chairs or visit our rush page FAQ!
                             </div>
-                            <div className="text-black md:h-full font-bold mt-16 md:mx-8">
+                            <div className="text-black lg:h-full font-bold mt-16 lg:mx-8">
                                 Follow us on our various social media platforms and get updated!
                                 <br/>
                                 <ul className='flex flex-row justify-center space-x-6 mt-4'>
@@ -191,7 +197,7 @@ function Home() {
                         <img
                             src={lambdaPhoto2}
                             alt={'Lambda Photo 2 b/w'}
-                            className={'absolute object-cover right-0 bottom-0 w-1/2 z-0 hidden md:block'}
+                            className={'absolute object-cover right-0 bottom-0 w-1/2 z-0 hidden lg:block'}
                         />
                     </div>
                 </div>

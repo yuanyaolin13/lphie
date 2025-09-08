@@ -79,16 +79,16 @@ function Active() {
                         authenticity, courageous leadership, cultural heritage, love, and
                         wisdom.
                     </div>
-                    <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:mx-36'>
-                        <div className="tabular-nums  text-blue-700 md:text-7xl text-3xl font-bold animate-[dollarsRaisedCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                    <div className='flex flex-col space-y-4 md:space-y-0 lg:flex-row justify-between lg:mx-24'>
+                        <div className="tabular-nums  text-blue-700 lg:text-7xl text-3xl font-bold animate-[dollarsRaisedCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                             <span className='sr-only'>$1,500</span><span className='not-sr-only'>$+</span>
                             <div className='text-sm md:text-xl text-black w-full'>raised for other orgs.</div>
                         </div>
-                        <div className="tabular-nums text-blue-700 md:text-7xl text-3xl font-bold animate-[brothersCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                        <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[brothersCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                             <span className='sr-only'>10,000</span><span className='not-sr-only'>K+</span>
                             <div className='text-sm md:text-xl text-black w-full'>brothers world-wide</div>
                         </div>
-                        <div className="tabular-nums text-blue-700 md:text-7xl text-3xl font-bold animate-[chapterCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                        <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[chapterCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                             <span className='sr-only'>100+</span><span className='not-sr-only'>+</span>
                             <div className='text-sm md:text-xl text-black w-full'>brothers part of the chapter</div>
                         </div>

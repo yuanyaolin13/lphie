@@ -7,10 +7,10 @@ function Rush() {
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-screen bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center relative">
                     <div className='mt-auto px-12 mx-6 border-l-8 flex flex-col'>
-                        <div className="text-center md:text-left text-6xl md:text-[9rem] font-extrabold">
+                        <div className="text-center lgtext-left text-6xl lgtext-[9rem] font-extrabold">
                             RUSH
                         </div>
-                        <div className="text-center md:text-left text-3xl md:text-6xl font-extrabold md:-mt-2">
+                        <div className="text-center lgtext-left text-3xl lgtext-6xl font-extrabold lg-mt-2">
                             LAMBDA PHI EPSILON
                         </div>
                     </div>
@@ -18,7 +18,7 @@ function Rush() {
                         <img
                             src={dragon}
                             alt={'dragon'}
-                            className="absolute top-20 right-0 h-128 md:h-196 -z-20 opacity-25"
+                            className="absolute top-20 right-0 h-128 lgh-196 -z-20 opacity-25"
                         />
                         <ul className="flex w-max animate-infinite-scroll">
                             {[...Array(6)].map((_, i) => (
