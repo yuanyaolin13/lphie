@@ -187,7 +187,7 @@ function Home() {
                         <img
                             src={lambdaPhoto2}
                             alt={'Lambda Photo 2 b/w'}
-                            className={'absolute object-cover right-0 bottom-0 w-1/2 z-0 hidden lg:block'}
+                            className={'absolute object-cover w-164 right-0 bottom-0 z-0 hidden lg:block'}
                         />
                     </div>
                 </div>
