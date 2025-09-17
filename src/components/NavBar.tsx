@@ -51,9 +51,9 @@ function NavBar() {
                               className={location.pathname === "/active" ? " text-blue-700 " : " duration-500  hover:text-blue-700"}>
                             active house
                         </Link>
-                        <Link to="/chapter"
-                              className={location.pathname === "/chapter" ? " text-blue-700 " : " duration-500  hover:text-blue-700"}>
-                            chapter roster
+                        <Link to="/brothers"
+                              className={location.pathname === "/brothers" ? " text-blue-700 " : " duration-500  hover:text-blue-700"}>
+                            brothers
                         </Link>
                         <Link to="/rush" className={location.pathname === "/rush" ? " text-blue-700 " : "duration-500 hover:text-blue-700"}>
                             rush
@@ -91,9 +91,9 @@ function NavBar() {
                           className={location.pathname === "/active" ? "text-blue-700" : ""}>
                         active house
                     </Link>
-                    <Link to="/chapter" onClick={openNav}
-                          className={location.pathname === "/chapter" ? "text-blue-700" : ""}>
-                        chapter roster
+                    <Link to="/brothers" onClick={openNav}
+                          className={location.pathname === "/brothers" ? "text-blue-700" : ""}>
+                        brothers
                     </Link>
                     <Link to="/rush" onClick={openNav}
                           className={location.pathname === "/rush" ? "text-blue-700" : ""}>

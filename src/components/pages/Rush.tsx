@@ -3,7 +3,7 @@ import banner from "../../assets/scrollingBanner.png";
 import RushCover from "../../assets/rush/Fall25RushCover.png";
 import noPhoto from "../../assets/brothers/active/anon.png"
 import rushChair1 from "../../assets/brothers/active/StevenChen.png"
-import AccordionItem from "../AccordionItem.tsx";
+import AccordionItem from "../util/AccordionItem.tsx";
 
 function Rush() {
 
@@ -66,8 +66,8 @@ function Rush() {
         <div className="w-full flex flex-col">
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-screen bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center relative">
-                    <div className='mt-auto px-12 mx-6 border-l-8 flex flex-col'>
-                        <div className="text-center lg:text-left text-6xl lg:text-[9rem] font-extrabold">
+                    <div className='mt-auto px-4 mx-6 border-l-8 flex flex-col'>
+                        <div className="text-center lg:text-left text-5xl lg:text-[9rem] font-extrabold">
                             RUSH
                         </div>
                         <div className="text-center lg:text-left text-3xl lg:text-6xl font-extrabold lg:-mt-2">
@@ -175,12 +175,16 @@ function Rush() {
                         </div>
                     </div>
                 </div>
+                <svg viewBox="0 0 1440 247" fill="none" xmlns="http://www.w3.org/2000/svg"  className="block -mb-px">
+                    <path d="M1443 657.273V0.381409L1397.96 55.1293L1349.59 44.8945L1317.01 69.1004L1273.15 88.2703L1259.61 119.381L1238.22 141.8L1191.02 134.327L1167.96 170.148L1133.62 190.699L1097.02 183.226L1040.2 227.901L962.687 215.798L939.039 249.346L903.519 254.463L863.582 232.125L825.412 227.008L812.46 194.435L752.311 160.401L714.533 174.372L680.877 172.504L657.72 122.224L611.602 108.252L559.302 118.975L509.259 78.9291L476.683 70.9687L412.51 81.6908L364.135 115.725L321.354 102.16L273.568 67.7195L225.781 82.1782L190.359 77.5482L175.15 54.2357L149.834 30.9232H125.107L87.9183 16.952L60.9344 33.7662L31.6937 22.5568L0 0.381409V657.273L1443 657.273Z" fill="#FFFFFF"/>
+                </svg>
             </article>
+
             <article className="h-full bg-white">
                 <div className='flex flex-col text-black mx-8'>
                     <div className="flex flex-col md:flex-row md:mt-16 mt-12">
                         <div className="flex flex-col mx-auto">
-                            <div className="font-bold md:-rotate-90 text-right text-4xl mb-auto md:mt-30 lg:text-9xl text-blue-700">
+                            <div className="font-bold md:-rotate-90 text-right text-6xl mb-auto md:mt-30 lg:text-9xl text-blue-700">
                                 FAQ
                             </div>
                         </div>

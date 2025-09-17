@@ -1,6 +1,6 @@
 import dragon from "../../assets/dragon.png";
 import banner from "../../assets/scrollingBanner.png";
-import ChapterRosterItem from "../ChapterRosterItem.tsx";
+import ChapterRosterItem from "../util/ChapterRosterItem.tsx";
 
 
 function Chapter() {
@@ -312,7 +312,7 @@ function Chapter() {
         },
         {
             semesterYear: "Spring 2025",
-            className: "Phi Paramount",
+            className: "Paramount Phi",
             educators: [
                 'David "Koda" Nguyen',
                 'Jordan "λvant-𝄞arde" Shirtz',
@@ -330,9 +330,9 @@ function Chapter() {
         <div className="w-full flex flex-col overflow-hidden">
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-screen bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center relative">
-                    <div className='mt-auto px-12 mx-6 border-l-8 flex flex-col'>
-                        <div className="text-center lg:text-left text-6xl lg:text-[9rem] font-extrabold">
-                            CHAPTER ROSTER
+                    <div className='mt-auto px-4 mx-6 border-l-8 flex flex-col'>
+                        <div className="text-center lg:text-left text-5xl lg:text-[9rem] font-extrabold">
+                            BROTHERS
                         </div>
                         <div className="text-center lg:text-left text-3xl lg:text-6xl font-extrabold lg:-mt-2">
                             LAMBDA PHI EPSILON
@@ -358,6 +358,47 @@ function Chapter() {
                     </div>
                 </div>
             </article>
+            <article className="h-full w-full flex flex-col bg-white relative">
+                <div className="flex flex-col justify-center w-full my-6 lg:px-32 px-8 lg:my-12 space-y-8">
+                    <div className='lg:text-8xl text-6xl font-extrabold text-blue-700'>
+                        ABOUT US
+                    </div>
+                    <div className='text-md lg:text-lg text-black'>
+                        Lambda Phi Epsilon at UNC Chapel Hill is an Asian-interest,
+                        non-Asian-exclusive fraternity that aims to make leaders among men.
+                        The organization was founded in the spring of 2013 by 18 young men.
+                        We are a diverse group dedicated to increasing public awareness
+                        about modern Asian and Asian-American issues through philanthropic
+                        activities and services such as hosting bone marrow drives on behalf
+                        of Be the Match, a subsidiary of the National Marrow Donor Program.
+                    </div>
+                    <div className='text-md lg:text-lg text-black'>
+                        At the international scale, we have a total of 73 chapters all
+                        united under the same goals. UNC Lambda Phi Epsilon strives to make
+                        a strong impact on the Asian-American community and expand our
+                        outreach on campus as well as the greater Triangle area. We hope to
+                        develop young men into future leaders while making a positive and
+                        lasting impact on society. The core values of are organization are
+                        authenticity, courageous leadership, cultural heritage, love, and
+                        wisdom.
+                    </div>
+                    <div className='flex flex-col space-y-4 lg:space-y-0 lg:flex-row justify-between lg:mx-24'>
+                        <div className="tabular-nums  text-blue-700 lg:text-7xl text-3xl font-bold animate-[dollarsRaisedCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                            <span className='sr-only'>$1,500</span><span className='not-sr-only'>$+</span>
+                            <div className='text-sm lg:text-xl text-black w-full'>raised for other orgs.</div>
+                        </div>
+                        <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[brothersCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                            <span className='sr-only'>10,000</span><span className='not-sr-only'>K+</span>
+                            <div className='text-sm lg:text-xl text-black w-full'>brothers world-wide</div>
+                        </div>
+                        <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[chapterCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                            <span className='sr-only'>100+</span><span className='not-sr-only'>+</span>
+                            <div className='text-sm lg:text-xl text-black w-full'>brothers part of the chapter</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
             <article className='h-full bg-[url(./assets/graintexture.png)]'>
                 <svg viewBox="0 0 1440 223"
                      fill="#FFFFFF"
@@ -379,7 +420,10 @@ function Chapter() {
                         75.1769L102.383 66.245L54.5704 79.0474L25.9589 75.6235L-0.442017 92.0284V0H1483Z" fill="#FFFFFF"/>
                     </g>
                 </svg>
-                <div className='h-full'>
+                <div className={'lg:text-8xl text-6xl font-extrabold text-blue-700 mt-4'}>
+                    CHAPTER ROSTER
+                </div>
+                <div className='h-full mt-8 md:mt-16'>
                     {classes.map((classObject, i) => (
                         <ChapterRosterItem key={i} {...classObject} />
                     ))}
