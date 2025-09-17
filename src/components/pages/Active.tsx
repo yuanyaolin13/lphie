@@ -14,7 +14,7 @@ import JonathanRoster from "../../assets/brothers/active/JonathanRoster.png";
 import KenRoster from "../../assets/brothers/active/KenRoster.png";
 import KylerRoster from "../../assets/brothers/active/KylerRoster.png";
 import LorenzoRoster from "../../assets/brothers/active/LorenzoRoster.png";
-import NathanRoster from "../../assets/brothers/active/nathanRoster.png";
+import NathanRoster from "../../assets/brothers/active/NathanRoster.png";
 import StevenRoster from "../../assets/brothers/active/StevenRoster.png";
 import TianyiRoster from "../../assets/brothers/active/TianyiRoster.png";
 import YuanyaoRoster from "../../assets/brothers/active/YuanyaoRoster.png";
