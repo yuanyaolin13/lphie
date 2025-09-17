@@ -8,24 +8,24 @@ import dragon from "../../assets/dragon.png";
 function Home() {
     return (
         <div className="w-full flex flex-col">
-            <article className="bg-[url(./assets/smoke2.png)] h-screen bg-cover bg-center bg-no-repeat">
+            <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-full w-full bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center">
                     <div className="text-center lg:text-left lg:text-lg italic mt-64 lg:mt-48 lg:ml-8">
                         The University of North Carolina at Chapel Hill
                     </div>
-                    <div className="text-center lg:text-left text-6xl lg:text-[13rem] font-extrabold italic lg:-mt-6">
+                    <div className="text-center lg:text-left text-6xl lg:text-[12rem] font-extrabold italic lg:-mt-6">
                         LAMBDA PHI
                     </div>
-                    <div className="text-center lg:text-right text-6xl lg:text-[13rem] -mt-3 font-extrabold italic lg:ml-auto lg:-mt-12">
+                    <div className="text-center lg:text-right text-6xl lg:text-[12rem] -mt-3 font-extrabold italic lg:ml-auto lg:-mt-12">
                         EPSILON
                     </div>
-                    <div className='ml-auto lg:-mt-4 mr-6 -mt-2'>est. 2013</div>
+                    <div className='ml-auto lg:-mt-4 mr-6 -mt-2 mb-66 lg:mb-50'>est. 2013</div>
 
                     <div className="w-full overflow-hidden mt-auto bg-white p-2">
                         <img
                             src={dragon}
                             alt={'dragon'}
-                            className="absolute top-20 right-0 h-128 lg:h-196 -z-20 opacity-25"
+                            className="absolute top-32 lg:top-20 right-0 h-128 lg:h-196 -z-20 opacity-25"
                         />
                         <ul className="flex w-max animate-infinite-scroll">
                             {[...Array(6)].map((_, i) => (
@@ -63,7 +63,7 @@ function Home() {
                         </div>
                         <div className="relative flex justify-center mt-6 lg:mt-12">
                             <img
-                                className="lg:h-108 w-full lg:max-w-full"
+                                className="lg:h-1/2 max-h-108"
                                 src={lambdaPhoto1}
                                 alt={`lambda photo 1`}
                             />
@@ -71,11 +71,7 @@ function Home() {
                     </div>
                 </div>
             </article>
-            <article className="relative h-full">
-                <div className="absolute inset-0">
-                    <div className="bg-[url(./assets/graintexture.png)] bg-center bg-fixed h-full w-full opacity-50">
-                    </div>
-                </div>
+            <article className="bg-[url(./assets/graintexture.png)] relative h-full">
                 <div className="relative w-full">
                     <svg viewBox="0 0 1440 223" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -109,12 +105,6 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </article>
-            <article className="relative">
-                <div className="absolute inset-0">
-                    <div className="bg-[url(./assets/graintexture.png)] bg-center bg-fixed h-full w-full opacity-50">
-                    </div>
-                </div>
                 <div className="relative">
                     <svg viewBox="0 0 1440 658" fill="none" xmlns="http://www.w3.org/2000/svg"  className="block -mb-px">
                         <path d="M1443 657.273V0.381409L1397.96 55.1293L1349.59 44.8945L1317.01 69.1004L1273.15 88.2703L1259.61 119.381L1238.22 141.8L1191.02 134.327L1167.96 170.148L1133.62 190.699L1097.02 183.226L1040.2 227.901L962.687 215.798L939.039 249.346L903.519 254.463L863.582 232.125L825.412 227.008L812.46 194.435L752.311 160.401L714.533 174.372L680.877 172.504L657.72 122.224L611.602 108.252L559.302 118.975L509.259 78.9291L476.683 70.9687L412.51 81.6908L364.135 115.725L321.354 102.16L273.568 67.7195L225.781 82.1782L190.359 77.5482L175.15 54.2357L149.834 30.9232H125.107L87.9183 16.952L60.9344 33.7662L31.6937 22.5568L0 0.381409V657.273L1443 657.273Z" fill="#FFFFFF"/>
@@ -132,7 +122,7 @@ function Home() {
                     alt={'contact Us texture'}
                     className={'absolute bottom-0 opacity-20 z-0 pointer-events-none select-none'}
                 />
-                <div className='flex flex-col w-full h-full pt-24 lg:h-screen'>
+                <div className='flex flex-col w-full h-full pt-24 lg:pt-36 lg:h-screen'>
                     <div className="lg:text-8xl text-5xl font-extrabold text-blue-700 lg:mx-64">
                         CONTACT US
                     </div>

@@ -1,23 +1,52 @@
 import banner from "../../assets/scrollingBanner.png";
 import dragon from "../../assets/dragon.png";
 
+// import noPhoto from "../../assets/brothers/active/anon.png";
+// import StevenChen from "../../assets/brothers/active/StevenChen.png";
+//
 // interface Member {
 //     image: string  | null;
 //     name: string | null;
 //     position: string | null;
 //     year: string | null;
+//     number: string | null;
 //     contact: string | null;
 // }
 
 function Active() {
-    //
+
     // const activeHouse: Member[] = [
     //     {
-    //         image: null,
-    //         name: null,
-    //         position: null,
-    //         year: null,
-    //         contact: null,
+    //         image: StevenChen,
+    //         name: "Steven 'Ad Astra' Chen",
+    //         position: "lowk everything",
+    //         year: "2028",
+    //         number: "#121",
+    //         contact: "loading@unc.edu",
+    //     },
+    //     {
+    //         image: noPhoto,
+    //         name: "Khang 'Lucky Twice' Nguyen",
+    //         position: "lowk fucking nothing",
+    //         year: "2026",
+    //         number: "#123",
+    //         contact: "idk@unc.edu",
+    //     },
+    //     {
+    //         image: noPhoto,
+    //         name: "Yuanyao 'Entei' Lin",
+    //         position: "Web Chair",
+    //         year: "2026",
+    //         number: "#122",
+    //         contact: "loading@unc.edu",
+    //     },
+    //     {
+    //         image: noPhoto,
+    //         name: "Jonathan '1MP3RIOSO' Gregory",
+    //         position: "lowk in the middle idk",
+    //         year: "2028",
+    //         number: "#120",
+    //         contact: "idk@unc.edu",
     //     },
     // ]
 
@@ -27,10 +56,10 @@ function Active() {
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-screen bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center relative">
                     <div className='mt-auto px-12 mx-6 border-l-8 flex flex-col'>
-                        <div className="text-center md:text-left text-6xl md:text-[9rem] font-extrabold">
+                        <div className="text-center lg:text-left text-6xl lg:text-[9rem] font-extrabold">
                             ACTIVE HOUSE
                         </div>
-                        <div className="text-center md:text-left text-3xl md:text-6xl font-extrabold md:-mt-2">
+                        <div className="text-center lg:text-left text-3xl lg:text-6xl font-extrabold lg:-mt-2">
                             LAMBDA PHI EPSILON
                         </div>
                     </div>
@@ -38,7 +67,7 @@ function Active() {
                         <img
                             src={dragon}
                             alt={'dragon'}
-                            className="absolute top-20 right-0 h-128 md:h-196 -z-20 opacity-25"
+                            className="absolute top-32 lg:top-20 right-0 h-128 lg:h-196 -z-20 opacity-25"
                         />
                         <ul className="flex w-max animate-infinite-scroll">
                             {[...Array(6)].map((_, i) => (
@@ -56,11 +85,11 @@ function Active() {
             </article>
 
             <article className="h-full w-full flex flex-col bg-white relative">
-                <div className="flex flex-col justify-center w-full my-6 md:px-32 px-8 md:my-12 space-y-8">
-                    <div className='md:text-8xl text-6xl font-extrabold text-blue-700'>
+                <div className="flex flex-col justify-center w-full my-6 lg:px-32 px-8 lg:my-12 space-y-8">
+                    <div className='lg:text-8xl text-6xl font-extrabold text-blue-700'>
                         ABOUT US
                     </div>
-                    <div className='text-md md:text-lg text-black'>
+                    <div className='text-md lg:text-lg text-black'>
                         Lambda Phi Epsilon at UNC Chapel Hill is an Asian-interest,
                         non-Asian-exclusive fraternity that aims to make leaders among men.
                         The organization was founded in the spring of 2013 by 18 young men.
@@ -69,7 +98,7 @@ function Active() {
                         activities and services such as hosting bone marrow drives on behalf
                         of Be the Match, a subsidiary of the National Marrow Donor Program.
                     </div>
-                    <div className='text-md md:text-lg text-black'>
+                    <div className='text-md lg:text-lg text-black'>
                         At the international scale, we have a total of 73 chapters all
                         united under the same goals. UNC Lambda Phi Epsilon strives to make
                         a strong impact on the Asian-American community and expand our
@@ -79,18 +108,18 @@ function Active() {
                         authenticity, courageous leadership, cultural heritage, love, and
                         wisdom.
                     </div>
-                    <div className='flex flex-col space-y-4 md:space-y-0 lg:flex-row justify-between lg:mx-24'>
+                    <div className='flex flex-col space-y-4 lg:space-y-0 lg:flex-row justify-between lg:mx-24'>
                         <div className="tabular-nums  text-blue-700 lg:text-7xl text-3xl font-bold animate-[dollarsRaisedCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                             <span className='sr-only'>$1,500</span><span className='not-sr-only'>$+</span>
-                            <div className='text-sm md:text-xl text-black w-full'>raised for other orgs.</div>
+                            <div className='text-sm lg:text-xl text-black w-full'>raised for other orgs.</div>
                         </div>
                         <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[brothersCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                             <span className='sr-only'>10,000</span><span className='not-sr-only'>K+</span>
-                            <div className='text-sm md:text-xl text-black w-full'>brothers world-wide</div>
+                            <div className='text-sm lg:text-xl text-black w-full'>brothers world-wide</div>
                         </div>
                         <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[chapterCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                             <span className='sr-only'>100+</span><span className='not-sr-only'>+</span>
-                            <div className='text-sm md:text-xl text-black w-full'>brothers part of the chapter</div>
+                            <div className='text-sm lg:text-xl text-black w-full'>brothers part of the chapter</div>
                         </div>
                     </div>
                 </div>
@@ -109,7 +138,6 @@ function Active() {
             </article>
 
             <article className="relative my-12">
-                waiting for photos
             </article>
         </div>
     );

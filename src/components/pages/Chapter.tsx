@@ -3,7 +3,7 @@ import banner from "../../assets/scrollingBanner.png";
 
 function Chapter() {
     return (
-        <div className="w-full flex flex-col overflow-x-hidden">
+        <div className="w-full flex flex-col overflow-hidden">
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-screen bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center relative">
                     <div className='mt-auto px-12 mx-6 border-l-8 flex flex-col'>
@@ -18,7 +18,7 @@ function Chapter() {
                         <img
                             src={dragon}
                             alt={'dragon'}
-                            className="absolute top-20 right-0 h-128 lg:h-196 -z-20 opacity-25"
+                            className="absolute top-32 lg:top-20 right-0 h-128 lg:h-196 -z-20 opacity-25"
                         />
                         <ul className="flex w-max animate-infinite-scroll">
                             {[...Array(6)].map((_, i) => (
@@ -40,7 +40,10 @@ function Chapter() {
                 </div>
             </article>
             <article className='h-full bg-black'>
-                <svg viewBox="0 0 1440 223" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 1440 223"
+                     fill="#FFFFFF"
+                     xmlns="http://www.w3.org/2000/svg"
+                     className="block w-full h-auto">
                     <g clip-path="url(#clip0_118_37)">
                         <path d="M1483 0V223L1467.78 208.411L1448.83 206.029L1433.29 197.097L1402.85
                         200.075H1379.35L1357.94 206.238L1313.73 190.518L1307.41 169.2L1274.57
@@ -57,6 +60,22 @@ function Chapter() {
                         75.1769L102.383 66.245L54.5704 79.0474L25.9589 75.6235L-0.442017 92.0284V0H1483Z" fill="#FFFFFF"/>
                     </g>
                 </svg>
+            </article>
+
+            {/* !!!!!!!!!!!!!!! h-screen temporary*/}
+            <article className='bg-black'>
+                chapter roster goes here
+                <svg viewBox="0 0 1440 350"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     className="block w-full h-auto -mb-px ">
+                    <path d="M1443 657.273V0.381409L1397.96 55.1293L1349.59 44.8945L1317.01 69.1004L1273.15 88.2703L1259.61 119.381L1238.22 141.8L1191.02 134.327L1167.96 170.148L1133.62 190.699L1097.02 183.226L1040.2 227.901L962.687 215.798L939.039 249.346L903.519 254.463L863.582 232.125L825.412 227.008L812.46 194.435L752.311 160.401L714.533 174.372L680.877 172.504L657.72 122.224L611.602 108.252L559.302 118.975L509.259 78.9291L476.683 70.9687L412.51 81.6908L364.135 115.725L321.354 102.16L273.568 67.7195L225.781 82.1782L190.359 77.5482L175.15 54.2357L149.834 30.9232H125.107L87.9183 16.952L60.9344 33.7662L31.6937 22.5568L0 0.381409V657.273L1443 657.273Z" fill="#FFFFFF"/>
+                </svg>
+            </article>
+            <article className='h-full bg-white'>
+                <div className='text-blue-700 font-bold text-4xl lg:text-8xl text-nowrap flex flex-row -ml-20'>
+                    CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER
+                </div>
             </article>
         </div>
     );
