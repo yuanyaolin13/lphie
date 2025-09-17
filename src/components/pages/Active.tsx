@@ -2,10 +2,10 @@ import ActiveHouseItem from "../util/ActiveHouseItem";
 import banner from "../../assets/scrollingBanner.png";
 import dragon from "../../assets/dragon.png";
 
-// import noPhoto from "../../assets/brothers/active/anon.png";
 import AlexRoster from "../../assets/brothers/active/AlexRoster.png";
 import AllanRoster from "../../assets/brothers/active/AllanRoster.png";
 import AndyRoster from "../../assets/brothers/active/AndyRoster.png";
+import CooperRoster from "../../assets/brothers/active/CooperRoster.png";
 import DylanRoster from "../../assets/brothers/active/DylanRoster.png";
 import JamesRoster from "../../assets/brothers/active/JamesRoster.png";
 import JerryRoster from "../../assets/brothers/active/JerryRoster.png";
@@ -48,14 +48,14 @@ function Active() {
             contact: "lnsiv@unc.edu",
             year: "2026",
         },
-        // {  ASSOCIATE / NO FORM
-        //     image: noPhoto,
-        //     lineNumber: "#107",
-        //     name: "Cooper “Dante” Klein",
-        //     role: "Internal",
-        //     contact: "",
-        //     year: "",
-        // },
+        {
+            image: CooperRoster,
+            lineNumber: "#107",
+            name: "Cooper “Dante” Klein",
+            role: "Associate",
+            contact: "ckle@unc.edu",
+            year: "2026",
+        },
         {
             image: TianyiRoster,
             lineNumber: "#108",
