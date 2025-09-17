@@ -1,7 +1,331 @@
 import dragon from "../../assets/dragon.png";
 import banner from "../../assets/scrollingBanner.png";
+import ChapterRosterItem from "../ChapterRosterItem.tsx";
+
 
 function Chapter() {
+
+    const classes = [
+        {
+            semesterYear: "Spring 2013",
+            className: "Charter Colossus",
+            educators: [
+                'Mike "Nooobody’s Bitch" Xi',
+                'Tianyu "Shuttlecock" Shi'
+            ],
+            classMembers: [
+                '#1. Wesley "1, 2 St3P" Shang',
+                '#2. Gopal "Cocoa Puff" Desai',
+                '#3. Jakovin "The Burning Bush" Lee',
+                '#4. Tim "Deadmaufive" Kang',
+                '#5. Masa "Buttercup" Watanabe',
+                '#6. Alex "Woody" Guzman',
+                '#7. Vincent "Phoenix Down" Wang',
+                '#8. Duc "PokeHerFace" Doan',
+                '#9. Adam "Old Dog New Tricks" Lee',
+                '#10. William "Skeet Shooter" Yen',
+                '#11. Chauncey "Febreze" Cleveland',
+                '#12. Joe "Cap’n ‘Murica" Baldock',
+                '#13. Kevin "Buzz" Cheng',
+                '#14. Zach "Tokem Pole" Jones',
+                '#15. Scott "Brack Swan" Dobbin',
+                '#16. Albert "My Sassy Boy" Kang'
+            ]
+        },
+        {
+            semesterYear: "Fall 2013",
+            className: "Alpha Awakening",
+            educators: [
+                'Duc "PokeHerFace" Doan',
+                'Tim "Deadmaufive" Kang'
+            ],
+            classMembers: [
+                '#17. Joseph "Brack Knight" Shin',
+                '#18. Tin "B4nhKai" Nguyen',
+                '#19. Stephen "The Renaissance Man" Yan',
+                '#20. Stephen "Rex" Chen',
+                '#21. Tim "Clifford" Wu',
+                '#22. Brian "AtlaS.S." Luong'
+            ]
+        },
+        {
+            semesterYear: "Fall 2014",
+            className: "Beta Bushido",
+            educators: [
+                'Tim "Deadmaufive" Kang',
+                'Stephen "The Renaissance Man" Yan'
+            ],
+            classMembers: [
+                '#24. Tony "Akituh" Lieu',
+                '#25. Joey "5ky Bison" Yip',
+                '#26. Cheng "RhaeGal" Qiu',
+                '#27. Henry "UndHerDog" Lieu',
+                '#28. Kyle "FireFawkes" Elmore',
+                '#29. Benny "imPulse" Ho',
+                '#30. Ricky "Bullseye" Ho',
+                '#31. Stephen "Brack Mamba" Shin',
+                '#32. Aravind "Rocky" Subramanian',
+                '#33. Taylor "HighLandHer" Moore'
+            ]
+        },
+        {
+            semesterYear: "Fall 2015",
+            className: "Gamma Ganbaru",
+            educators: [
+                'Stephen "The Renaissance Man" Yan',
+                'Benny "imPulse" Ho'
+            ],
+            classMembers: [
+                '#34. Kento "DeadPull" Yamamoto'
+            ]
+        },
+        {
+            semesterYear: "Spring 2016",
+            className: "Delta Dynasty",
+            educators: [
+                'Joseph "Brack Knight" Shin',
+                'Tin "B4nhKai" Nguyen'
+            ],
+            classMembers: [
+                '#35. John "Creed" Tuong',
+                '#36. Brandon "SimBa" Pham',
+                '#37. Jin "CharMandHer" Sosankin',
+                '#38. Sam "Slinky" Samarakoon',
+                '#39. Jeff "HArry Spotter" Kim',
+                '#40. Keith "Dissonance" Copper, Jr.',
+                '#41. Rushi "Consonance" Marthala',
+                '#42. Phillip "The Notorious T.W.I.G." Huynh',
+                '#43. Peter "ForHerst Gump" Zheng'
+            ]
+        },
+        {
+            semesterYear: "Fall 2016",
+            className: "Epsilon Empire",
+            educators: [
+                'Taylor "HighLandHer" Moore',
+                'Cheng "RhaeGal" Qiu'
+            ],
+            classMembers: [
+                '#44. Nguyen "Achilles" Vu',
+                '#46. Kiet "Akamaru" Huynh',
+                '#47. Zhu "6yakuya" Park',
+                '#48. Daniel "6oliath" Kim'
+            ]
+        },
+        {
+            semesterYear: "Spring 2017",
+            className: "Zeta Zenith",
+            educators: [
+                'Benny "imPulse" Ho',
+                'Ricky "Bullseye" Ho'
+            ],
+            classMembers: [
+                '#49. Taejung "Brack OPS" Kim',
+                '#51. Michael "Lucario" Nguyen',
+                '#52. Daniel "Wolfg4nG" Yoon',
+                '#53. Chonny "Scooby Snax" Martin',
+                '#54. Tanas "Sokka" Gangadhar'
+            ]
+        },
+        {
+            semesterYear: "Fall 2017",
+            className: "Exalted Etas",
+            educators: [
+                'Nguyen "Achilles" Vu',
+                'Kiet "Akamaru" Huynh'
+            ],
+            classMembers: [
+                '#56. Harvey "H.A.M.m" Liu',
+                '#60. Maximilian "Grimm" Kremer'
+            ]
+        },
+        {
+            semesterYear: "Spring 2018",
+            className: "Triumphant Theta",
+            educators: [
+                'Phillip "The Notorious T.W.I.G." Huynh',
+                'Sam "Slinky" Samarakoon'
+            ],
+            classMembers: [
+                '#61. Joseph "KilluAH GoodD." Tuong',
+                '#62. Kevin "Bambi" Pham',
+                '#63. Jeffery "「Sora」" Zheng',
+                '#64. Johnny "DEA7HGRIPS" Ni'
+            ]
+        },
+        {
+            semesterYear: "Fall 2018",
+            className: "Imperial Iota",
+            educators: [
+                'Jeff "HArry Spotter" Kim',
+                'Keith "Dissonance" Copper Jr.'
+            ],
+            classMembers: [
+                '#65. Gerald "A.S.S. DestroyHer" Tadeja',
+                '#66. Bryan "Sarge" Nguyen',
+                '#68. Jonny "Berzerker Armour" Wu',
+                '#69. Sung "The Big B.A.A.D Wolf" Song',
+                '#70. Brandon "Space JammHer" Chen'
+            ]
+        },
+        {
+            semesterYear: "Fall 2019",
+            className: "Kappa Kryptonite",
+            educators: [
+                'Chonny "Scooby Snax" Martin'
+            ],
+            classMembers: [
+                '#72. Jonathan "Starg4zinG" Liao'
+            ]
+        },
+        {
+            semesterYear: "Spring 2020",
+            className: "Mu Musketeers",
+            educators: [
+                'Taejung "Brack OPS" Kim'
+            ],
+            classMembers: [
+                '#73. Michael "DIO9SUS" Deng',
+                '#74. Andre "Cerberüs" Tautjo',
+                '#75. Daniel "⚜️Charlemagne⚜️" Ku',
+                '#76. Tano "ThrillHer" Nguyen'
+            ]
+        },
+        {
+            semesterYear: "Spring 2021",
+            className: "Nu Nexus",
+            educators: [
+                'Jeffery "「Sora」" Zheng',
+                'Bryan "Sarge" Nguyen'
+            ],
+            classMembers: [
+                '#77. Billy "DoOk CaBoOm" Zheng',
+                '#78. Andrew "Kurama" Pham',
+                '#79. Tony "Hikkup" Vo',
+                '#80. Teddy "Brack Panther" Pyo',
+                '#81. Khoi "tHe KreAtor" Bui',
+                '#82. Andy "WolvHerine" Chen',
+                '#83. William "Freesol" Wun',
+                '#84. Xuan "SLEEP1NG DRAG0N" Chen'
+            ]
+        },
+        {
+            semesterYear: "Fall 2021",
+            className: "Xi Xenon",
+            educators: [
+                'Joseph "KilluAH GoodD." Tuong',
+                'Gerald "A.S.S. DestroyHer" Tadeja'
+            ],
+            classMembers: [
+                '#85. Denis "Perseus" Kasaivanov',
+                '#87. Justin "JugHerNaut" Wang',
+                '#88. Ian "Fast n\' Furious" Brown',
+                '#89. Eric "Shang-Chi" Rao',
+                '#90. Aknazar "Snoopy" Janibek'
+            ]
+        },
+        {
+            semesterYear: "Spring 2022",
+            className: "Omicron Odyssey",
+            educators: [
+                'Michael "DIO9SUS" Deng',
+                'Jonathan "Starg4zinG" Liao'
+            ],
+            classMembers: [
+                '#91. Jack "The Hocus · Pocus" Stoops',
+                '#92. Sam "GrasshoppHer" Immaneni',
+                '#93. David "Koda" Nguyen',
+                '#94. Jordan "λvant-𝄞arde" Shirtz',
+                '#95. Abhishek "Ghost N The Shell" Shankar',
+                '#96. Xunpu "1e1ouch" Wu'
+            ]
+        },
+        {
+            semesterYear: "Fall 2022",
+            className: "Pi Pantheon",
+            educators: [
+                'Khoi "THe KreAtor" Bui',
+                'Billy "DoOk CaBoOm" Zheng'
+            ],
+            classMembers: [
+                '#97. Kyler "The《Lord A.R.C.H.E.R.》" Chen',
+                '#98. Guru "Nto the Spider-Verse" Balamurugan',
+                '#99. Isaac "Flareon" Tran',
+                '#100. Matt "Runaway" Nguyen'
+            ]
+        },
+        {
+            semesterYear: "Spring 2023",
+            className: "Rho Rage",
+            educators: [
+                'Abhishek "Ghost N The Shell" Shankar',
+                'Tano "ThrillHer" Nguyen'
+            ],
+            classMembers: [
+                '#102. Johnathan "Whiplash" Dinh',
+                '#103. Patrick "eHTernaK" Chan',
+                '#104. David "BLΛCK HAYATE" Wang',
+                '#105. Lorenzo "SeiTa" Santarina IV',
+                '#107. Cooper "Dante" Klein'
+            ]
+        },
+        {
+            semesterYear: "Fall 2023",
+            className: "Sigma Shogun",
+            educators: [
+                'Aknazar "Snoopy" Janibek',
+                'Denis "Perseus" Kasaivanov'
+            ],
+            classMembers: [
+                '#108. Tianyi "The Alchemist π\'Tranced" Zhou',
+                '#109. Nathan "rEnTgoKu" Luu',
+                '#110. Jerry "Gladiator" Zhang',
+                '#111. Andy "BRACKLIST" Choe',
+                '#112. Caleb "BRACKPINK" Green'
+            ]
+        },
+        {
+            semesterYear: "Spring 2024",
+            className: "Tau Titans",
+            educators: [
+                'Teddy "Brack Panther" Pyo',
+                'Patrick "eHTernaK" Chan'
+            ],
+            classMembers: [
+                '#113. Ken "ExcalibHer" Pham',
+                '#114. Allan "Nception" Fan',
+                '#115. Jesus "K1NG 2LAYER" Cabrera',
+                '#116. Alex "Graduate" Tang'
+            ]
+        },
+        {
+            semesterYear: "Fall 2024",
+            className: "Upsilon Uproar",
+            educators: [
+                'Isaac "Flareon" Tran'
+            ],
+            classMembers: [
+                '#117. Dylan "HowL" Chin',
+                '#118. James "Anubis" Ma',
+                '#119. Johnny "Brack Tiger" Zhu'
+            ]
+        },
+        {
+            semesterYear: "Spring 2025",
+            className: "Phi Paramount",
+            educators: [
+                'David "Koda" Nguyen',
+                'Jordan "λvant-𝄞arde" Shirtz',
+            ],
+            classMembers: [
+                '#120. Jonathan "1MPER1OSO" Gregory',
+                '#121. Steven "Ad Astra" Chen',
+                '#122. Yuanyao "Entei" Lin',
+                '#123. Khang "Lucky Twice" Nguyen',
+            ]
+        }
+    ]
+
     return (
         <div className="w-full flex flex-col overflow-hidden">
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
@@ -34,12 +358,7 @@ function Chapter() {
                     </div>
                 </div>
             </article>
-            <article className='h-full bg-white'>
-                <div className='text-blue-700 font-bold text-4xl lg:text-8xl text-nowrap flex flex-row -ml-20'>
-                    CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER
-                </div>
-            </article>
-            <article className='h-full bg-black'>
+            <article className='h-full bg-[url(./assets/graintexture.png)]'>
                 <svg viewBox="0 0 1440 223"
                      fill="#FFFFFF"
                      xmlns="http://www.w3.org/2000/svg"
@@ -60,21 +379,10 @@ function Chapter() {
                         75.1769L102.383 66.245L54.5704 79.0474L25.9589 75.6235L-0.442017 92.0284V0H1483Z" fill="#FFFFFF"/>
                     </g>
                 </svg>
-            </article>
-
-            {/* !!!!!!!!!!!!!!! h-screen temporary*/}
-            <article className='bg-black'>
-                chapter roster goes here
-                <svg viewBox="0 0 1440 350"
-                     fill="none"
-                     xmlns="http://www.w3.org/2000/svg"
-                     className="block w-full h-auto -mb-px ">
-                    <path d="M1443 657.273V0.381409L1397.96 55.1293L1349.59 44.8945L1317.01 69.1004L1273.15 88.2703L1259.61 119.381L1238.22 141.8L1191.02 134.327L1167.96 170.148L1133.62 190.699L1097.02 183.226L1040.2 227.901L962.687 215.798L939.039 249.346L903.519 254.463L863.582 232.125L825.412 227.008L812.46 194.435L752.311 160.401L714.533 174.372L680.877 172.504L657.72 122.224L611.602 108.252L559.302 118.975L509.259 78.9291L476.683 70.9687L412.51 81.6908L364.135 115.725L321.354 102.16L273.568 67.7195L225.781 82.1782L190.359 77.5482L175.15 54.2357L149.834 30.9232H125.107L87.9183 16.952L60.9344 33.7662L31.6937 22.5568L0 0.381409V657.273L1443 657.273Z" fill="#FFFFFF"/>
-                </svg>
-            </article>
-            <article className='h-full bg-white'>
-                <div className='text-blue-700 font-bold text-4xl lg:text-8xl text-nowrap flex flex-row -ml-20'>
-                    CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER CHAPTER ROSTER
+                <div className='h-full'>
+                    {classes.map((classObject, i) => (
+                        <ChapterRosterItem key={i} {...classObject} />
+                    ))}
                 </div>
             </article>
         </div>
