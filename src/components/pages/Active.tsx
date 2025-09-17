@@ -10,6 +10,7 @@ import DylanRoster from "../../assets/brothers/active/DylanRoster.png";
 import JamesRoster from "../../assets/brothers/active/JamesRoster.png";
 import JerryRoster from "../../assets/brothers/active/JerryRoster.png";
 import JohnnyRoster from "../../assets/brothers/active/JohnnyRoster.png";
+import JohnRoster from "../../assets/brothers/active/JohnRoster.png";
 import JonathanRoster from "../../assets/brothers/active/JonathanRoster.png";
 import KenRoster from "../../assets/brothers/active/KenRoster.png";
 import KylerRoster from "../../assets/brothers/active/KylerRoster.png";
@@ -31,14 +32,14 @@ function Active() {
             contact: "kylerc@unc.edu",
             year: "2026",
         },
-        // { ASSOCIATE / NO FORM
-        //     image: noPhoto,
-        //     lineNumber: "#102",
-        //     name: "John “Whiplash” Dinh",
-        //     role: "",
-        //     contact: "",
-        //     year: "",
-        // },
+        {
+            image: JohnRoster,
+            lineNumber: "#102",
+            name: "John “Whiplash” Dinh",
+            role: "Associates",
+            contact: "dinhj@unc.edu",
+            year: "2026",
+        },
         {
             image: LorenzoRoster,
             lineNumber: "#105",
