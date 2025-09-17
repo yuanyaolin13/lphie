@@ -2,7 +2,7 @@ import ActiveHouseItem from "../util/ActiveHouseItem";
 import banner from "../../assets/scrollingBanner.png";
 import dragon from "../../assets/dragon.png";
 
-import noPhoto from "../../assets/brothers/active/anon.png";
+// import noPhoto from "../../assets/brothers/active/anon.png";
 import AlexRoster from "../../assets/brothers/active/AlexRoster.png";
 import AllanRoster from "../../assets/brothers/active/AllanRoster.png";
 import AndyRoster from "../../assets/brothers/active/AndyRoster.png";
