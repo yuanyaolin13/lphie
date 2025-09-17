@@ -1,8 +1,8 @@
 import dragon from "../../assets/dragon.png";
 import banner from "../../assets/scrollingBanner.png";
 import RushCover from "../../assets/rush/Fall25RushCover.png";
-import noPhoto from "../../assets/brothers/active/anon.png"
 import rushChair1 from "../../assets/brothers/active/StevenRoster.png"
+import rushChair2 from "../../assets/brothers/active/JamesRoster.png"
 import AccordionItem from "../util/AccordionItem.tsx";
 
 function Rush() {
@@ -160,8 +160,8 @@ function Rush() {
                             </div>
                             <div className='flex flex-col items-center'>
                                 <img
-                                    src={noPhoto}
-                                    alt={'noPhoto'}
+                                    src={rushChair2}
+                                    alt={'James MA'}
                                     className='w-36 h-36 md:w-80 md:h-80 rounded-full object-center object-cover border-2 border-white'
                                 />
                                 <div className='flex flex-col items-center mt-4'>
