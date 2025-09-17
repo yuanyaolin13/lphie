@@ -2,7 +2,7 @@ import dragon from "../../assets/dragon.png";
 import banner from "../../assets/scrollingBanner.png";
 import RushCover from "../../assets/rush/Fall25RushCover.png";
 import noPhoto from "../../assets/brothers/active/anon.png"
-import rushChair1 from "../../assets/brothers/active/StevenChen.png"
+import rushChair1 from "../../assets/brothers/active/StevenRoster.png"
 import AccordionItem from "../util/AccordionItem.tsx";
 
 function Rush() {

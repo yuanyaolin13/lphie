@@ -3,13 +3,28 @@ import banner from "../../assets/scrollingBanner.png";
 import dragon from "../../assets/dragon.png";
 
 import noPhoto from "../../assets/brothers/active/anon.png";
-import StevenChen from "../../assets/brothers/active/StevenChen.png";
+import AlexRoster from "../../assets/brothers/active/AlexRoster.png";
+import AllanRoster from "../../assets/brothers/active/AllanRoster.png";
+import AndyRoster from "../../assets/brothers/active/AndyRoster.png";
+import DylanRoster from "../../assets/brothers/active/DylanRoster.png";
+import JamesRoster from "../../assets/brothers/active/JamesRoster.png";
+import JerryRoster from "../../assets/brothers/active/JerryRoster.png";
+import JohnnyRoster from "../../assets/brothers/active/JohnnyRoster.png";
+import JonathanRoster from "../../assets/brothers/active/JonathanRoster.png";
+import KenRoster from "../../assets/brothers/active/KenRoster.png";
+import KylerRoster from "../../assets/brothers/active/KylerRoster.png";
+import LorenzoRoster from "../../assets/brothers/active/LorenzoRoster.png";
+import NathanRoster from "../../assets/brothers/active/nathanRoster.png";
+import StevenRoster from "../../assets/brothers/active/StevenRoster.png";
+import TianyiRoster from "../../assets/brothers/active/TianyiRoster.png";
+import YuanyaoRoster from "../../assets/brothers/active/YuanyaoRoster.png";
+
 
 
 function Active() {
     const activeHouse = [
         {
-            image: noPhoto,
+            image: KylerRoster,
             lineNumber: "#97",
             name: "Kyler “The 《Lord A.R.C.H.E.R.》” Chen",
             role: "External Events",
@@ -25,7 +40,7 @@ function Active() {
         //     year: "",
         // },
         {
-            image: noPhoto,
+            image: LorenzoRoster,
             lineNumber: "#105",
             name: "Lorenzo “SeiTa” Santarina IV",
             role: "Rush, Fundraising, Reveal Coordinator",
@@ -41,7 +56,7 @@ function Active() {
         //     year: "",
         // },
         {
-            image: noPhoto,
+            image: TianyiRoster,
             lineNumber: "#108",
             name: "Tianyi “The Alchemist π‘Tranced” Zhou",
             role: "President",
@@ -49,7 +64,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: NathanRoster,
             lineNumber: "#109",
             name: "Nathan “rEnTgoKu” Luu",
             role: "Internal Events",
@@ -57,7 +72,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: JerryRoster,
             lineNumber: "#110",
             name: "Jerry “Gladiator” Zhang",
             role: "Professional Development",
@@ -65,7 +80,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: AndyRoster,
             lineNumber: "#111",
             name: "Andy “BRACKLIST” Choe",
             role: "Scribe",
@@ -73,7 +88,7 @@ function Active() {
             year: "2026",
         },
         {
-            image: noPhoto,
+            image: KenRoster,
             lineNumber: "#113",
             name: "Ken “ExcalibHer” Pham",
             role: "Rush, VPI",
@@ -81,7 +96,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: AllanRoster,
             lineNumber: "#114",
             name: "Allan “Nception” Fan",
             role: "Treasurer, Secretary",
@@ -89,7 +104,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: AlexRoster,
             lineNumber: "#116",
             name: "Alex “Graduate” Tang",
             role: "VPE",
@@ -97,7 +112,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: DylanRoster,
             lineNumber: "#117",
             name: "Dylan “HowL” Chin",
             role: "Judicial",
@@ -105,7 +120,7 @@ function Active() {
             year: "2027",
         },
         {
-            image: noPhoto,
+            image: JamesRoster,
             lineNumber: "#118",
             name: "James “Anubis” Ma",
             role: "IGC Representative, Rush Chair",
@@ -113,7 +128,7 @@ function Active() {
             year: "2028",
         },
         {
-            image: noPhoto,
+            image: JohnnyRoster,
             lineNumber: "#119",
             name: "Johnny “Brack Tiger” Zhu",
             role: "Rush Chair, External Events",
@@ -121,7 +136,7 @@ function Active() {
             year: "2028",
         },
         {
-            image: noPhoto,
+            image: JonathanRoster,
             lineNumber: "#120",
             name: "Jonathan “1MP3RIOSO” Gregory",
             role: "Reveal Coordinator, Rush Chair",
@@ -129,7 +144,7 @@ function Active() {
             year: "2028",
         },
         {
-            image: StevenChen,
+            image: StevenRoster,
             lineNumber: "#121",
             name: "Steven “Ad Astra” Chen",
             role: "Rush Chair, Social Media, Secretary, Cultural Heritage, Events",
@@ -137,7 +152,7 @@ function Active() {
             year: "2028",
         },
         {
-            image: noPhoto,
+            image: YuanyaoRoster,
             lineNumber: "#122",
             name: "Yuanyao “Entei” Lin",
             role: "Web Chair, Social Media, Cultural Heritage",
