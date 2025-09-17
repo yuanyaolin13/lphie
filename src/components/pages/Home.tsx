@@ -73,7 +73,7 @@ function Home() {
             </article>
             <article className="bg-[url(./assets/graintexture.png)] relative h-full">
                 <div className="relative w-full">
-                    <svg viewBox="0 0 1440 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg viewBox="0 0 1440 223" fill="none" xmlns="http://www.w3.org/2000/svg" className={'-mb-px'}>
                         <path
                             d="M-22 0V223L-6.77841 208.411L12.1696 206.029L27.707 197.097L58.1502 200.075H81.6458L103.057 206.238L147.269 190.518L153.585 169.2L186.428 168.724L195.46 146.87L218.009 142.911L221.988 129.93L256.031 126.952L282.811 114.835C293.323 116.23 303.392 118.283 312.749 120.938C323.233 124.511 353.298 123.141 353.298 123.141L369.593 135.05L395.678 143.595L435.09 147.168L477.47 152.795L514.419 145.62L551.368 137.254L592.99 142.375L614.717 139.397L646.297 148.329L656.087 138.266L683.246 140.142L701.373 130.585L719.437 111.828L739.332 114.537L770.154 110.785L792.766 116.681L819.23 115.638L844.494 122.635L891.232 122.308L920.16 129.126L954.582 135.944L1025.51 156.934L1044.02 149.937L1079.13 153.688L1108.82 150.294C1108.82 150.294 1156.25 147.109 1167.43 138.385C1178.61 129.662 1162.38 120.968 1168.19 112.631C1174 104.295 1212.4 100.514 1202.61 84.2874L1249.67 76.3678L1276.45 78.2435L1291.67 68.865L1335.12 75.1769L1358.62 66.245L1406.43 79.0474L1435.04 75.6235L1461.44 92.0284V0H-22Z"
                             fill="#FFFFFF"
@@ -122,11 +122,11 @@ function Home() {
                     alt={'contact Us texture'}
                     className={'absolute bottom-0 opacity-20 z-0 pointer-events-none select-none'}
                 />
-                <div className='flex flex-col w-full h-full pt-24 lg:pt-36 lg:h-screen'>
+                <div className='flex flex-col w-full h-full pt-12 lg:pt-24 lg:h-screen'>
                     <div className="lg:text-8xl text-5xl font-extrabold text-blue-700 lg:mx-64">
                         CONTACT US
                     </div>
-                    <div className="flex flex-row mr-auto h-full w-fit lg:mr-24 px-4 pt-8">
+                    <div className="flex flex-row mx-auto h-full w-fit xl:mx-0 xl:mr-auto  px-4 pt-8">
                         <div className="flex flex-col my-4 lg:my-auto">
                             <div className="text-black text-lg h-fit font-bold lg:mx-12">
                                 If you have any questions, please feel free to contact us at: unclambdas@gmail.com
@@ -187,7 +187,7 @@ function Home() {
                         <img
                             src={lambdaPhoto2}
                             alt={'Lambda Photo 2 b/w'}
-                            className={'absolute object-cover w-164 right-0 bottom-0 z-0 hidden lg:block'}
+                            className={'absolute object-cover w-164 right-0 bottom-0 z-0 hidden xl:block'}
                         />
                     </div>
                 </div>

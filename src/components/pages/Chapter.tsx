@@ -387,7 +387,7 @@ function Chapter() {
                             <div className='text-sm lg:text-xl text-black w-full'>raised for other orgs.</div>
                         </div>
                         <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[brothersCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
-                            <span className='sr-only'>10,000</span><span className='not-sr-only'>K+</span>
+                            <span className='sr-only '>10,000</span><span className='not-sr-only'>K+</span>
                             <div className='text-sm lg:text-xl text-black w-full'>brothers world-wide</div>
                         </div>
                         <div className="tabular-nums text-blue-700 lg:text-7xl text-3xl font-bold animate-[chapterCounter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
