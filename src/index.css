@@ -19,7 +19,10 @@
     0%   { transform: translateX(0); }
     100% { transform: translateX(calc(-50% - 20px)); }
 }
-.animate-infinite-scroll { animation: infinite-scroll 40s linear infinite; }
+.animate-infinite-scroll {
+    animation: infinite-scroll 60s linear infinite;
+    will-change: transform;
+}
 
 /* For Numbers Counting Up Animations */
 @property --num {
