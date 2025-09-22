@@ -13,13 +13,13 @@ function Home() {
                     <div className="text-center lg:text-left lg:text-lg italic mt-64 lg:mt-48 lg:ml-8">
                         The University of North Carolina at Chapel Hill
                     </div>
-                    <div className="text-center lg:text-left text-6xl lg:text-[12rem] font-extrabold italic lg:-mt-6">
+                    <div className="text-center lg:text-left text-6xl lg:text-[12rem] font-extrabold italic">
                         LAMBDA PHI
                     </div>
                     <div className="text-center lg:text-right text-6xl lg:text-[12rem] -mt-3 font-extrabold italic lg:ml-auto lg:-mt-12">
                         EPSILON
                     </div>
-                    <div className='ml-auto lg:-mt-4 mr-6 -mt-2 mb-66 lg:mb-50'>est. 2013</div>
+                    <div className='ml-auto lg:-mt-8 mr-6 -mt-2 mb-66 lg:mb-50'>est. 2013</div>
 
                     <div className="w-full overflow-hidden mt-auto bg-white p-2">
                         <img
