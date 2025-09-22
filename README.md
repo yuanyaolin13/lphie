@@ -25,11 +25,12 @@ You can simply `git push` and GitHub will build the page for you and this will b
 - Brothers page, update/change informatics and Chapter Roster
 - Rush page, change graphics, class name, etc.
 
-### TODO's and Future Planes for Website:
+### TODO's and Future Plans for Website:
 
 - President's List
 
 ## Contributors
 
 - [@yuanyaolin13](https://github.com/yuanyaolin13) - Yuanyao Lin
+- [@jaepg](https://github.com/jaepg) - Jae So (Design)
 
