@@ -3,10 +3,11 @@
 Welcome to the GitHub repository for UNC Lambda Phi Epsilon's official website! This repository contains the source code for the website, and should be updated every semester as the organization grows. Visit the live website at [unclambdas.org](https://unclambdas.org/).
 
 This repository is a revamp of our [old website](https://github.com/yuanyaolin13/unclambdasweb), converting outdated HTML/CSS into a modern React/TailwindCSS app.
+
 ## Getting Started
 
 ### Initial Setup:
-First install dependency, make sure you have prior [Node Package Manager (npm) ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
+First install dependencies, make sure you have [Node Package Manager (npm) ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) prior to pulling this repo!
 ```
 npm install
 ```
