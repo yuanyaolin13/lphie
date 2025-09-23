@@ -1,5 +1,5 @@
 import dragon from "../../assets/dragon.png";
-import banner from "../../assets/scrollingBanner.png";
+import banner from "../../assets/scrollingBanner.jpg";
 import RushCover from "../../assets/rush/Fall25RushCover.png";
 import rushChair1 from "../../assets/brothers/active/StevenRoster.png"
 import rushChair2 from "../../assets/brothers/active/JamesRoster.png"

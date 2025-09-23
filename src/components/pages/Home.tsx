@@ -1,4 +1,4 @@
-import banner from '../../assets/scrollingBanner.png'
+import banner from '../../assets/scrollingBanner.jpg'
 import lambdaPhoto1 from '../../assets/phiReveal.png'
 import lambdaPhoto2 from '../../assets/lambdaPhoto2.png'
 import backgroundTexture from '../../assets/backgroundtexture.png'

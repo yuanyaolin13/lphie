@@ -1,5 +1,5 @@
 import dragon from "../../assets/dragon.png";
-import banner from "../../assets/scrollingBanner.png";
+import banner from "../../assets/scrollingBanner.jpg";
 import ChapterRosterItem from "../util/ChapterRosterItem.tsx";
 
 

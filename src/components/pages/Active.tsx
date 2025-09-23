@@ -1,5 +1,5 @@
 import ActiveHouseItem from "../util/ActiveHouseItem";
-import banner from "../../assets/scrollingBanner.png";
+import banner from "../../assets/scrollingBanner.jpg";
 import dragon from "../../assets/dragon.png";
 
 import AlexRoster from "../../assets/brothers/active/AlexRoster.jpg";
