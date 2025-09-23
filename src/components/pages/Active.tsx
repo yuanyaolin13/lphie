@@ -2,23 +2,23 @@ import ActiveHouseItem from "../util/ActiveHouseItem";
 import banner from "../../assets/scrollingBanner.png";
 import dragon from "../../assets/dragon.png";
 
-import AlexRoster from "../../assets/brothers/active/AlexRoster.png";
-import AllanRoster from "../../assets/brothers/active/AllanRoster.png";
-import AndyRoster from "../../assets/brothers/active/AndyRoster.png";
-import CooperRoster from "../../assets/brothers/active/CooperRoster.png";
-import DylanRoster from "../../assets/brothers/active/DylanRoster.png";
-import JamesRoster from "../../assets/brothers/active/JamesRoster.png";
-import JerryRoster from "../../assets/brothers/active/JerryRoster.png";
-import JohnnyRoster from "../../assets/brothers/active/JohnnyRoster.png";
-import JohnRoster from "../../assets/brothers/active/JohnRoster.png";
-import JonathanRoster from "../../assets/brothers/active/JonathanRoster.png";
-import KenRoster from "../../assets/brothers/active/KenRoster.png";
-import KylerRoster from "../../assets/brothers/active/KylerRoster.png";
-import LorenzoRoster from "../../assets/brothers/active/LorenzoRoster.png";
-import NathanRoster from "../../assets/brothers/active/NathanRoster.png";
-import StevenRoster from "../../assets/brothers/active/StevenRoster.png";
-import TianyiRoster from "../../assets/brothers/active/TianyiRoster.png";
-import YuanyaoRoster from "../../assets/brothers/active/YuanyaoRoster.png";
+import AlexRoster from "../../assets/brothers/active/AlexRoster.jpg";
+import AllanRoster from "../../assets/brothers/active/AllanRoster.jpg";
+import AndyRoster from "../../assets/brothers/active/AndyRoster.jpg";
+import CooperRoster from "../../assets/brothers/active/CooperRoster.jpg";
+import DylanRoster from "../../assets/brothers/active/DylanRoster.jpg";
+import JamesRoster from "../../assets/brothers/active/JamesRoster.jpg";
+import JerryRoster from "../../assets/brothers/active/JerryRoster.jpg";
+import JohnnyRoster from "../../assets/brothers/active/JohnnyRoster.jpg";
+import JohnRoster from "../../assets/brothers/active/JohnRoster.jpg";
+import JonathanRoster from "../../assets/brothers/active/JonathanRoster.jpg";
+import KenRoster from "../../assets/brothers/active/KenRoster.jpg";
+import KylerRoster from "../../assets/brothers/active/KylerRoster.jpg";
+import LorenzoRoster from "../../assets/brothers/active/LorenzoRoster.jpg";
+import NathanRoster from "../../assets/brothers/active/NathanRoster.jpg";
+import StevenRoster from "../../assets/brothers/active/StevenRoster.jpg";
+import TianyiRoster from "../../assets/brothers/active/TianyiRoster.jpg";
+import YuanyaoRoster from "../../assets/brothers/active/YuanyaoRoster.jpg";
 
 
 

@@ -20,6 +20,7 @@ function ActiveHouseItem({ image, lineNumber, name, role, contact, year }: Activ
                     <img
                         src={image}
                         alt={name}
+                        loading="lazy"
                         className="object-cover object-center w-84 h-84 md:w-128 md:h-128"
                     />
                 </div>
