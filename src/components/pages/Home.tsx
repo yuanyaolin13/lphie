@@ -1,22 +1,22 @@
 import banner from '../../assets/scrollingBanner.jpg'
-import lambdaPhoto1 from '../../assets/phiReveal.png'
-import lambdaPhoto2 from '../../assets/lambdaPhoto2.png'
-import backgroundTexture from '../../assets/backgroundtexture.png'
-import contactUsTexture from '../../assets/contactUsTexture.png'
-import dragon from "../../assets/dragon.png";
+import lambdaPhoto1 from '../../assets/phiReveal.webp'
+import lambdaPhoto2 from '../../assets/lambdaPhoto2.webp'
+import backgroundTexture from '../../assets/backgroundtexture.webp'
+import contactUsTexture from '../../assets/contactUsTexture.webp'
+import dragon from "../../assets/dragon.webp";
 
 function Home() {
     return (
         <div className="w-full flex flex-col">
             <article className="bg-[url(./assets/smoke2.png)] h-full bg-cover bg-center bg-no-repeat">
                 <div className="h-full w-full bg-black/75 backdrop-blur-sm text-white flex flex-col justify-center">
-                    <div className="text-center lg:text-left lg:text-lg italic mt-64 lg:mt-48 lg:ml-8">
+                    <div className="text-center lg:text-left lg:text-lg italic mt-64 lg:mt-48 lg:ml-8 tracking-tight">
                         The University of North Carolina at Chapel Hill
                     </div>
-                    <div className="text-center lg:text-left text-6xl lg:text-[12rem] font-extrabold italic">
+                    <div className="text-center lg:text-left text-6xl lg:text-[12rem] font-extrabold italic tracking-tighter">
                         LAMBDA PHI
                     </div>
-                    <div className="text-center lg:text-right text-6xl lg:text-[12rem] -mt-3 font-extrabold italic lg:ml-auto lg:-mt-12">
+                    <div className="text-center lg:text-right text-6xl lg:text-[12rem] -mt-3 font-extrabold italic lg:ml-auto lg:-mt-12 tracking-tighter">
                         EPSILON
                     </div>
                     <div className='ml-auto lg:-mt-8 mr-6 -mt-2 mb-66 lg:mb-50'>est. 2013</div>
@@ -71,7 +71,7 @@ function Home() {
                     </div>
                 </div>
             </article>
-            <article className="bg-[url(./assets/graintexture.png)] relative h-full">
+            <article className="bg-[url(./assets/graintexture.webp)] relative h-full">
                 <div className="relative w-full">
                     <svg viewBox="0 0 1440 200" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" className={'-mt-px'}>
                         <path
@@ -147,6 +147,7 @@ function Home() {
                                         <a
                                             href='https://www.instagram.com/unclambdas/'
                                             target={"_blank"}
+                                            aria-label="UNC Lambdas Instagram Account"
                                             className='z-1000'
                                         >
                                             <svg className="w-10 h-10" fill="currentColor"
@@ -161,6 +162,7 @@ function Home() {
                                         <a
                                             href='https://www.tiktok.com/@unclambdas'
                                             target={"_blank"}
+                                            aria-label="UNC Lambdas TikTok Account"
                                             className='z-1000'
                                         >
                                             <svg
@@ -177,6 +179,7 @@ function Home() {
                                         <a
                                             href='https://www.facebook.com/unclambdas/'
                                             target={"_blank"}
+                                            aria-label="UNC Lambdas Facebook Account"
                                             className='z-1000 text-black'
                                         >
                                             <svg className="w-10 h-10" fill="currentColor"

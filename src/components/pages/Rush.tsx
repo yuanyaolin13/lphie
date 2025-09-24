@@ -1,4 +1,4 @@
-import dragon from "../../assets/dragon.png";
+import dragon from "../../assets/dragon.webp";
 import banner from "../../assets/scrollingBanner.jpg";
 import RushCover from "../../assets/rush/Fall25RushCover.png";
 import rushChair1 from "../../assets/brothers/active/StevenRoster.png"
@@ -94,7 +94,7 @@ function Rush() {
                     </div>
                 </div>
             </article>
-            <article className="bg-[url(./assets/graintexture.png)]">
+            <article className="bg-[url(./assets/graintexture.webp)]">
                 <svg viewBox="0 0 1440 223"
                      fill="#FFFFFF"
                      xmlns="http://www.w3.org/2000/svg"

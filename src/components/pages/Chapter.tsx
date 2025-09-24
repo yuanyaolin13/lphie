@@ -1,4 +1,4 @@
-import dragon from "../../assets/dragon.png";
+import dragon from "../../assets/dragon.webp";
 import banner from "../../assets/scrollingBanner.jpg";
 import ChapterRosterItem from "../util/ChapterRosterItem.tsx";
 
@@ -398,7 +398,7 @@ function Chapter() {
                 </div>
             </article>
 
-            <article className='h-full bg-[url(./assets/graintexture.png)]'>
+            <article className='h-full bg-[url(./assets/graintexture.webp)]'>
                 <svg viewBox="0 0 1440 223"
                      fill="#FFFFFF"
                      xmlns="http://www.w3.org/2000/svg"

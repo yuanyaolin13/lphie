@@ -1,6 +1,6 @@
 import ActiveHouseItem from "../util/ActiveHouseItem";
 import banner from "../../assets/scrollingBanner.jpg";
-import dragon from "../../assets/dragon.png";
+import dragon from "../../assets/dragon.webp";
 
 import AlexRoster from "../../assets/brothers/active/AlexRoster.jpg";
 import AllanRoster from "../../assets/brothers/active/AllanRoster.jpg";
@@ -205,7 +205,7 @@ function Active() {
                 </div>
             </article>
 
-            <article className="relative bg-[url(./assets/graintexture.png)]">
+            <article className="relative bg-[url(./assets/graintexture.webp)]">
                 <svg viewBox="0 0 1440 350" fill="none" xmlns="http://www.w3.org/2000/svg"  className="block -mt-1 -rotate-180">
                     <path d="M1443 657.273V0.381409L1397.96 55.1293L1349.59 44.8945L1317.01 69.1004L1273.15
                     88.2703L1259.61 119.381L1238.22 141.8L1191.02 134.327L1167.96 170.148L1133.62 190.699L1097.02
