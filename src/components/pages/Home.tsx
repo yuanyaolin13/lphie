@@ -42,7 +42,7 @@ function Home() {
                 </div>
             </article>
             <article className="relative w-full h-full flex bg-white">
-                <div className="flex flex-col lg:flex-row lg:items-start m-6 lg:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.png)] bg-contain">
+                <div className="flex flex-col lg:flex-row lg:items-start m-6 lg:mx-12 w-full justify-center bg-[url(./assets/whoarewebackgroundtexture.webp)] bg-contain">
                     <div className="lg:-rotate-90 lg:mt-64 lg:text-8xl text-5xl font-extrabold text-blue-700 flex flex-col justify-center">
                         <div>
                             WHO ARE
@@ -53,7 +53,7 @@ function Home() {
                     </div>
                     <div className="flex-1 lg:px-24 lg:p-12 relative mt-6 justify-center ">
                         <div className='relative flex justify-center'>
-                            <div className="absolute inset-0 bg-[url(./assets/officialKanji.png)] bg-no-repeat bg-center bg-contain opacity-10"></div>
+                            <div className="absolute inset-0 bg-[url(./assets/officialKanji.webp)] bg-no-repeat bg-center bg-contain opacity-10"></div>
                             <div className="text-gray-800 text-md lg:text-lg">
                                 <span className='font-bold'>Lambda Phi Epsilon</span> at UNC Chapel Hill is an Asian-interest, non-Asian-exclusive fraternity founded in
                                 the Spring of 2013 by 18 young men. We strive to represent the Asian-American community in
